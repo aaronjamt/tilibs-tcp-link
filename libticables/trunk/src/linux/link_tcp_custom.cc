@@ -139,7 +139,7 @@ static int gry_put(CableHandle* h, uint8_t *data, uint32_t len)
 		return ERR_WRITE_TIMEOUT;
 	}
 
-	usleep(12500 * len); // Sleep 12.5 millis per byte to help microcontroller catch up.
+	usleep(1000 * len); // Sleep 1 millisecond per byte to help microcontroller catch up. Actual transfer speed should be much slower than this, so we always keep the microcontroller's buffer filled.
 
 	return 0;
 }
