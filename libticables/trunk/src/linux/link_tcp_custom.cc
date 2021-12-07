@@ -19,7 +19,7 @@
  *  Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-/* TCP/IPv4 Serial comm (custom ti86/esp8266 thing) */
+/* TCP/IPv4 Serial comm (custom ti/esp8266 thing) */
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
