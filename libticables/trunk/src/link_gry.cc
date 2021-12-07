@@ -28,7 +28,8 @@
 #ifndef NO_CABLE_GRY
 
 #if defined(__LINUX__)
-#include "linux/link_gry.cc"
+//#include "linux/link_gry.cc"
+#include "linux/link_tcp_custom.cc"
 
 #elif defined(__BSD__)
 #include "linux/link_gry.cc"
